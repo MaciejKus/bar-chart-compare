@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<!-- must include stylesheet -->
+<link rel="stylesheet" href="lib/chartist.css">
+<link rel="stylesheet" href="lib/chartist-plugin-tooltip.css">
+<!-- chartist.js recomends CSS classes to alter the look of the graph-->
+<style>
+  .ct-series-a .ct-bar {
+    /* Colour of your bars */
+    stroke: #0066ff;
+    /* The width of your bars */
+    stroke-width: 10px;
+    /* Yes! Dashed bars! */
+    stroke-dasharray: 0px;
+    /* Maybe you like round corners on your bars? */
+    stroke-linecap: square;
+  }
+</style>
+</head>
+<body>
+  <header id="exampleHeader">
+  </header>
+  <!-- use classes to specify aspect ratios-->
+  <div class="ct-chart ct-major-seventh" id="barChart"></div>
+
+  <script src="lib/chartist.js"></script>
+  <script src="lib/chartist-plugin-tooltip.min.js"></script>
+  <script src="lib/chartist-plugin-axistitle.min.js"></script>
+  <script src="js/barchart.js"></script>
+</body>

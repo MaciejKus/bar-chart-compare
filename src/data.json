@@ -1,0 +1,51 @@
+{
+  "colors": {
+    "bar": "#0066ff",
+    "border": "#0047b3",
+    "borderWidth": 4 
+  },
+  "labels": {
+    "title": "Library Size (Minified)",
+    "xAxis": "Library",
+    "yAxis": "KB"
+  },
+  "data":
+    [
+      {
+        "name": "amcharts.js",
+        "value": 255
+      },
+      {
+      "name": "c3.js",
+      "value": 334 
+      },
+      {
+      "name": "chart.js",
+      "value": 155
+      },
+      {
+      "name": "chartist.js",
+      "value": 57
+      },
+      {
+        "name": "d3.js",
+        "value": 215
+      },
+      {
+      "name": "flot",
+      "value": 221 
+      },
+      {
+      "name": "highcharts.js",
+      "value": 190
+      },
+      {
+      "name": "nvd3.js",
+      "value":375 
+      },
+      {
+      "name": "plotly.js",
+      "value": 687
+      }
+    ]
+}
