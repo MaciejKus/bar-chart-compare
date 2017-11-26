@@ -10,13 +10,15 @@ There are a few requirements/suggestions for the bar graphs that are created. Th
   * Have a tooltip when a user hovers over each bar.
   * Have a graph title along with axis labels and titles.
 
+The libraries are:
 
-* [amchartsjs](./examples/amchartsjs/)
-* [d3js](./examples/d3js/)
-* [plotlyjs](./examples/plotlyjs/)
-* [highchartsjs](./examples/highchartsjs/)
-* [chartjs](./examples/chartjs/)
-* [c3js](./examples/c3js/)
-* [nvd3js](./examples/nvd3js/)
-* [chartistjs](./examples/chartistjs/)
-* [flotjs](./examples/flotjs/)
+
+* [amchartsjs](./src/amchartsjs/)
+* [d3js](./src/d3js/)
+* [plotlyjs](./src/plotlyjs/)
+* [highchartsjs](./src/highchartsjs/)
+* [chartjs](./src/chartjs/)
+* [c3js](./src/c3js/)
+* [nvd3js](./src/nvd3js/)
+* [chartistjs](./src/chartistjs/)
+* [flotjs](./src/flotjs/)

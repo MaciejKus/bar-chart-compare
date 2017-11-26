@@ -23,10 +23,12 @@ There are a few requirements/suggestions for the bar graphs that are created. Th
   * Have a tooltip when a user hovers over each bar.
   * Have a graph title along with axis labels and titles.
 
+The libraries are:
+
 '''
 
 for lib in libraries:
-  readmeInfo += '\n* [%s](%s/%s/)' %( lib, distDir,lib)
+  readmeInfo += '\n* [%s](%s/%s/)' %( lib, srcDir,lib)
 
 readme = open('./README.md', 'w')
 readme.write(readmeInfo)
